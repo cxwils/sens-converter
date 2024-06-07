@@ -19,7 +19,7 @@ def main():
     choice = input('----> ')
 
     if choice == "1":
-        cs2_sens = input('Etner your CS2 sens: ')
+        cs2_sens = input('Enter your CS2 sens: ')
         val_sens = cs2_to_val(cs2_sens)
         print(f'Your VALORANT sens is: {val_sens}')
     elif choice == "2":
